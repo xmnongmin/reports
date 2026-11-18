@@ -1640,7 +1640,7 @@
         <span>/nvidia-dgx-platform-solutions/</span>
       </div>
       <div class="header-meta-item">
-        <span>11/3/2026, 11:15:10 PM</span>
+        <span>11/17/2026, 4:38:26 PM</span>
       </div>
       <button class="theme-toggle" title="Toggle dark mode">
         <span class="icon-moon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
@@ -1692,7 +1692,7 @@
         <a class="sidebar-link" data-category="images">
           <span class="sidebar-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
           Images
-          <span class="sidebar-link-count fail">5</span>
+          <span class="sidebar-link-count warn">4</span>
         </a>
       </li>
     
@@ -1831,10 +1831,10 @@
             <circle class="score-circle-progress" cx="70" cy="70" r="58"
                     stroke="var(--color-pass)"
                     stroke-dasharray="364.424747816416"
-                    stroke-dashoffset="51.01946469429822"/>
+                    stroke-dashoffset="47.375217216134104"/>
           </svg>
           <div class="score-circle-text">
-            <span class="score-value" style="color: var(--color-pass)">86</span>
+            <span class="score-value" style="color: var(--color-pass)">87</span>
             <span class="score-label">Good</span>
           </div>
         </div>
@@ -1846,7 +1846,7 @@
           
           <div class="score-stats">
             <div class="score-stat">
-              <span class="score-stat-value fail">15</span>
+              <span class="score-stat-value fail">14</span>
               <span class="score-stat-label">Failures</span>
             </div>
             <div class="score-stat">
@@ -1854,7 +1854,7 @@
               <span class="score-stat-label">Warnings</span>
             </div>
             <div class="score-stat">
-              <span class="score-stat-value pass">254</span>
+              <span class="score-stat-value pass">255</span>
               <span class="score-stat-label">Passed</span>
             </div>
             
@@ -2009,7 +2009,7 @@
       <!-- Issues Summary Table -->
       <div class="issues-summary">
         <div class="issues-summary-header">
-          <span class="issues-summary-title">Fix these first — top 10 of 72</span>
+          <span class="issues-summary-title">Fix these first — top 10 of 71</span>
         </div>
         <table class="issues-table">
           <thead>
@@ -2028,22 +2028,6 @@
             <div>
               <div class="issue-row-text">Cumulative Layout Shift (CLS)</div>
               <div class="issue-row-category">Performance</div>
-            </div>
-          </div>
-        </td>
-        
-        <td>
-          <span class="issue-row-severity fail">Critical</span>
-        </td>
-      </tr>
-    
-      <tr class="issue-row" data-rule-id="images-alt-present" data-status="fail" data-pages="*">
-        <td>
-          <div class="issue-row-name">
-            <div class="issue-row-icon fail">✕</div>
-            <div>
-              <div class="issue-row-text">Image Alt Attribute Present</div>
-              <div class="issue-row-category">Images</div>
             </div>
           </div>
         </td>
@@ -2181,6 +2165,22 @@
         </td>
       </tr>
     
+      <tr class="issue-row" data-rule-id="security-x-frame-options" data-status="fail" data-pages="*">
+        <td>
+          <div class="issue-row-name">
+            <div class="issue-row-icon fail">✕</div>
+            <div>
+              <div class="issue-row-text">X-Frame-Options</div>
+              <div class="issue-row-category">Security</div>
+            </div>
+          </div>
+        </td>
+        
+        <td>
+          <span class="issue-row-severity fail">Critical</span>
+        </td>
+      </tr>
+    
           </tbody>
         </table>
       </div>
@@ -2193,13 +2193,13 @@
             All <span class="filter-tab-count">373</span>
           </button>
           <button class="filter-tab" data-filter="fail">
-            Failures <span class="filter-tab-count">15</span>
+            Failures <span class="filter-tab-count">14</span>
           </button>
           <button class="filter-tab" data-filter="warn">
             Warnings <span class="filter-tab-count">57</span>
           </button>
           <button class="filter-tab" data-filter="pass">
-            Passed <span class="filter-tab-count">254</span>
+            Passed <span class="filter-tab-count">255</span>
           </button>
           
           <button class="filter-tab" data-filter="notmeasured">
@@ -2256,9 +2256,9 @@
             <a href="#category-images" class="category-progress-item">
               <span class="category-progress-name">Images</span>
               <div class="category-progress-bar">
-                <div class="category-progress-fill" style="width: 70%; background: var(--color-warn);"></div>
+                <div class="category-progress-fill" style="width: 84%; background: var(--color-pass);"></div>
               </div>
-              <span class="category-progress-value" style="color: var(--color-warn);">70%</span>
+              <span class="category-progress-value" style="color: var(--color-pass);">84%</span>
             </a>
             
             <a href="#category-security" class="category-progress-item">
@@ -3074,7 +3074,7 @@
                 <span class="rule-id">technical-timeout</span>
               </div>
               
-              <div class="rule-message">Page response time is 408ms</div>
+              <div class="rule-message">Page response time is 375ms</div>
               <div class="rule-description">Checks if the page response time is excessive, indicating a near-timeout condition</div>
               
               
@@ -3195,7 +3195,7 @@
                 <span class="rule-id">cwv-cls</span>
               </div>
               
-              <div class="rule-message">CLS is 0.795 (poor, should be under 0.1)</div>
+              <div class="rule-message">CLS is 0.796 (poor, should be under 0.1)</div>
               
               
               <details class="rule-fix">
@@ -3339,7 +3339,7 @@
                 <span class="rule-id">perf-asset-cache-policy</span>
               </div>
               
-              <div class="rule-message">55 of 111 static asset(s) lack an efficient cache policy: https://www.amax.com/wp-content/themes/amax/css/style.min.css?ver=1792016495 (no cache-control), https://www.amax.com/wp-content/themes/amax/css/bootstrap-icons.min.css?ver=1.11.3 (no cache-control), https://www.amax.com/wp-content/themes/amax/css/dataTables.min.css?ver=1.13.0 (no cache-control), https://www.amax.com/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.14.2 (no cache-control), https://www.amax.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1 (no cache-control), and 50 more</div>
+              <div class="rule-message">55 of 123 static asset(s) lack an efficient cache policy: https://www.amax.com/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.14.3 (no cache-control), https://www.amax.com/wp-content/themes/amax/css/dataTables.min.css?ver=1.13.0 (no cache-control), https://www.amax.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1 (no cache-control), https://www.amax.com/wp-content/themes/amax/css/bootstrap-icons.min.css?ver=1.11.3 (no cache-control), https://www.amax.com/wp-content/themes/amax/css/style.min.css?ver=1792016495 (no cache-control), and 50 more</div>
               
               
               <details class="rule-fix">
@@ -3363,7 +3363,7 @@
                 <span class="rule-id">perf-asset-compression</span>
               </div>
               
-              <div class="rule-message">5 text asset(s) served without compression: https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__en.js (859260 bytes), https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__en.js (859260 bytes), https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__en.js (859260 bytes), https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__en.js (859260 bytes), https://www.amax.com/wp-content/uploads/2026/05/nvidia-elite-partner.svg (5063 bytes)</div>
+              <div class="rule-message">1 text asset(s) served without compression: https://www.amax.com/wp-content/uploads/2026/05/nvidia-elite-partner.svg (5063 bytes)</div>
               
               
               <details class="rule-fix">
@@ -3459,7 +3459,7 @@
                 <span class="rule-id">perf-minify-css</span>
               </div>
               
-              <div class="rule-message">5 external stylesheet(s) appear unminified (heuristic: &gt;2048 bytes and URL lacks &quot;.min.&quot; — asset bodies are not inspected): https://www.youtube.com/s/player/4a1e575f/www-player.css, https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.8XZt5NemICA.L.X.O/am=AAAAQABgDA/d=1/br=1/rs=AGKMywEqgW9h0DJx3wYRUlhWpsFfoPDEsw/m=root,base, https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/styles__ltr.css, https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/styles__ltr.css, https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cFy7pM4Z3Hu9boH/styles__ltr.css; additionally, 6 stylesheet(s) were served without a content-length header (chunked or HTTP/2 framing), so their size could not be read</div>
+              <div class="rule-message">5 external stylesheet(s) appear unminified (heuristic: &gt;2048 bytes and URL lacks &quot;.min.&quot; — asset bodies are not inspected): https://www.youtube.com/s/player/b559f50c/www-player.css, https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.I27OilGn1CI.L.X.O/am=AAAAABAAGAM/d=1/br=1/rs=AGKMywGHDlZAoS89U-Ayc_fmH3QNGQsyYQ/m=root,base, https://www.gstatic.com/recaptcha/releases/4i3aN5wAweL7i3ADI7BSX4B-/styles__ltr.css, https://www.gstatic.com/recaptcha/releases/4i3aN5wAweL7i3ADI7BSX4B-/styles__ltr.css, https://www.gstatic.com/recaptcha/releases/4i3aN5wAweL7i3ADI7BSX4B-/styles__ltr.css; additionally, 6 stylesheet(s) were served without a content-length header (chunked or HTTP/2 framing), so their size could not be read</div>
               
               
               <details class="rule-fix">
@@ -3483,7 +3483,7 @@
                 <span class="rule-id">perf-minify-js</span>
               </div>
               
-              <div class="rule-message">Inline JavaScript appears unminified (8721 bytes, 34 bytes in block comments) — minification could save ~399 bytes — additionally, 16 external script(s) appear unminified (heuristic: &gt;2048 bytes and URL lacks &quot;.min.&quot; — asset bodies are not inspected): https://www.amax.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js, https://www.amax.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef17bce870a966299fc.js, https://www.googletagmanager.com/gtag/js?id=GT-NGPBFGX, https://www.googletagmanager.com/gtm.js?id=GTM-WFG9GSRP, https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1060004328/?random=1793776480089&amp;cv=11&amp;fst=1793776480089&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45Pe6b21v9174414162za208zd9174414162xecxf1&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121191155~121246026~121246034~121399758~123691370~123814946&amp;u_w=1280&amp;u_h=720&amp;url=https%3A%2F%2Fwww.amax.com%2Fnvidia-dgx-platform-solutions%2F&amp;rcb=1&amp;frm=0&amp;tiba=NVIDIA%20DGX%20Platform%20-%20AMAX%20Engineering&amp;did=dZTNiMT&amp;gdid=dZTNiMT&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=523950218.1793776480&amp;uaa=x86&amp;uab=64&amp;uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.184%7CGoogle%2520Chrome%3B138.0.7204.184&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=&amp;uaw=0&amp;data=event%3Dgtag.config%3Bgooglesitekit_post_type%3Dpost&amp;ept=9&amp;rfmt=3&amp;fmt=4, and 11 more; additionally, 24 script(s) were served without a content-length header (chunked or HTTP/2 framing), so their size could not be read</div>
+              <div class="rule-message">Inline JavaScript appears unminified (8721 bytes, 34 bytes in block comments) — minification could save ~399 bytes — additionally, 16 external script(s) appear unminified (heuristic: &gt;2048 bytes and URL lacks &quot;.min.&quot; — asset bodies are not inspected): https://www.amax.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js, https://www.amax.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef17bce870a966299fc.js, https://www.googletagmanager.com/gtag/js?id=GT-NGPBFGX, https://www.googletagmanager.com/gtm.js?id=GTM-WFG9GSRP, https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1060004328/?random=1794962277115&amp;cv=11&amp;fst=1794962277115&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45Pe6bg2v9174414162za208zd9174414162xecxf1&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~119860443~120213116~120385423~120412528~120420414~120469145~120469153~121191155~121246026~121246034~124320990&amp;u_w=1280&amp;u_h=720&amp;url=https%3A%2F%2Fwww.amax.com%2Fnvidia-dgx-platform-solutions%2F&amp;rcb=9&amp;frm=0&amp;tiba=NVIDIA%20DGX%20Platform%20-%20AMAX%20Engineering&amp;did=dZTNiMT&amp;gdid=dZTNiMT&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=911737524.1794962277&amp;uaa=x86&amp;uab=64&amp;uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.184%7CGoogle%2520Chrome%3B138.0.7204.184&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=&amp;uaw=0&amp;data=event%3Dgtag.config%3Bgooglesitekit_post_type%3Dpost&amp;ept=9&amp;rfmt=3&amp;fmt=4, and 11 more; additionally, 25 script(s) were served without a content-length header (chunked or HTTP/2 framing), so their size could not be read</div>
               
               
               <details class="rule-fix">
@@ -3533,7 +3533,7 @@
                 <span class="rule-id">cwv-lcp</span>
               </div>
               
-              <div class="rule-message">LCP is 0.56s (good, under 2.5s)</div>
+              <div class="rule-message">LCP is 0.54s (good, under 2.5s)</div>
               <div class="rule-description">Measures loading performance by checking when the largest content element becomes visible</div>
               
               
@@ -3567,7 +3567,7 @@
                 <span class="rule-id">cwv-ttfb</span>
               </div>
               
-              <div class="rule-message">TTFB is 353ms (good, under 800ms)</div>
+              <div class="rule-message">TTFB is 286ms (good, under 800ms)</div>
               <div class="rule-description">Measures server response time by checking how long until the first byte is received</div>
               
               
@@ -3584,7 +3584,7 @@
                 <span class="rule-id">cwv-fcp</span>
               </div>
               
-              <div class="rule-message">FCP is 0.56s (good, under 1.8s)</div>
+              <div class="rule-message">FCP is 0.54s (good, under 1.8s)</div>
               <div class="rule-description">Measures perceived load speed by checking when the first content is rendered</div>
               
               
@@ -3686,7 +3686,7 @@
                 <span class="rule-id">perf-response-time</span>
               </div>
               
-              <div class="rule-message">Response time is 408ms — within optimal range</div>
+              <div class="rule-message">Response time is 375ms — within optimal range</div>
               <div class="rule-description">Checks page response time against performance thresholds</div>
               
               
@@ -4278,41 +4278,17 @@
         <div class="category-header">
           <div class="category-title">
             <span class="category-name">Images</span>
-            <span class="category-score" style="background: var(--color-warn-bg); color: var(--color-warn)">70/100</span>
+            <span class="category-score" style="background: var(--color-pass-bg); color: var(--color-pass)">84/100</span>
           </div>
           <div class="category-stats">
-            <span class="category-stat pass">9 passed</span>
+            <span class="category-stat pass">10 passed</span>
             <span class="category-stat warn">4 warnings</span>
-            <span class="category-stat fail">1 failed</span>
+            <span class="category-stat fail">0 failed</span>
             
           </div>
         </div>
         <div class="category-rules">
           
-        <div class="rule-card" data-status="fail" data-rule-id="images-alt-present" data-pages="*">
-          <div class="rule-header">
-            <div class="rule-status-icon fail">✕</div>
-            <div class="rule-content">
-              <div class="rule-title-row">
-                <span class="rule-title">Image Alt Attribute Present</span>
-                <span class="rule-id">images-alt-present</span>
-              </div>
-              
-              <div class="rule-message">Found 1 image(s) missing alt attribute (9.1% of images)</div>
-              
-              
-              <details class="rule-fix">
-            <summary class="rule-fix-header">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M9 21h6M12 3a6 6 0 0 0-3 11.2V17h6v-2.8A6 6 0 0 0 12 3z"/></svg>
-              <span>How to fix</span>
-            </summary>
-            <div class="rule-description">Checks that all images have alt attributes for accessibility and SEO</div>
-            <div class="rule-fix-text">Add descriptive alt text to all images for accessibility and SEO</div>
-          </details>
-            </div>
-          </div>
-        </div>
-      
         <div class="rule-card" data-status="warn" data-rule-id="images-dimensions" data-pages="*">
           <div class="rule-header">
             <div class="rule-status-icon warn">!</div>
@@ -4409,8 +4385,25 @@
           </div>
         </div>
       <details class="quiet-rules">
-           <summary>9 checks that need no action</summary>
+           <summary>10 checks that need no action</summary>
            <div class="quiet-rules-body">
+        <div class="rule-card" data-status="pass" data-rule-id="images-alt-present" data-pages="*">
+          <div class="rule-header">
+            <div class="rule-status-icon pass">✓</div>
+            <div class="rule-content">
+              <div class="rule-title-row">
+                <span class="rule-title">Image Alt Attribute Present</span>
+                <span class="rule-id">images-alt-present</span>
+              </div>
+              
+              <div class="rule-message">All 11 image(s) have alt attributes</div>
+              <div class="rule-description">Checks that all images have alt attributes for accessibility and SEO</div>
+              
+              
+            </div>
+          </div>
+        </div>
+      
         <div class="rule-card" data-status="pass" data-rule-id="images-alt-quality" data-pages="*">
           <div class="rule-header">
             <div class="rule-status-icon pass">✓</div>
@@ -4420,7 +4413,7 @@
                 <span class="rule-id">images-alt-quality</span>
               </div>
               
-              <div class="rule-message">All 10 image(s) have quality alt text</div>
+              <div class="rule-message">All 11 image(s) have quality alt text</div>
               <div class="rule-description">Checks that image alt text is descriptive and not generic like &quot;image&quot; or &quot;photo&quot;</div>
               
               
@@ -4539,7 +4532,7 @@
                 <span class="rule-id">images-alt-length</span>
               </div>
               
-              <div class="rule-message">All 10 image(s) have alt text within the recommended length (125 chars)</div>
+              <div class="rule-message">All 11 image(s) have alt text within the recommended length (125 chars)</div>
               <div class="rule-description">Checks that image alt text is not excessively long (over 125 characters)</div>
               
               
@@ -5213,7 +5206,7 @@
                 <span class="rule-id">crawl-sitemap-domain</span>
               </div>
               
-              <div class="rule-message">All 251 sitemap URLs belong to the expected domain</div>
+              <div class="rule-message">All 239 sitemap URLs belong to the expected domain</div>
               <div class="rule-description">Checks that all sitemap URLs belong to the expected domain</div>
               
               
@@ -5298,7 +5291,7 @@
                 <span class="rule-id">crawl-sitemap-size-limit</span>
               </div>
               
-              <div class="rule-message">Largest of 6 sitemaps is 52.9 KB (within 50 MB limit)</div>
+              <div class="rule-message">Largest of 6 sitemaps is 53.3 KB (within 50 MB limit)</div>
               <div class="rule-description">Checks if sitemap exceeds the 50 MB uncompressed size limit</div>
               
               
@@ -5485,7 +5478,7 @@
                 <span class="rule-id">crawl-sitemap-lastmod</span>
               </div>
               
-              <div class="rule-message">Sitemap &lt;lastmod&gt; values look genuine (251/251 URLs dated)</div>
+              <div class="rule-message">Sitemap &lt;lastmod&gt; values look genuine (239/239 URLs dated)</div>
               <div class="rule-description">Checks sitemap &lt;lastmod&gt; values for invalid dates, future dates, and bulk-identical timestamps</div>
               
               
@@ -5774,7 +5767,7 @@
                 <span class="rule-id">crawl-sitemap-date-drift</span>
               </div>
               
-              <div class="rule-message">lastmod and dateModified are both 2026-10-28</div>
+              <div class="rule-message">lastmod and dateModified are both 2026-11-17</div>
               <div class="rule-description">Checks that sitemap lastmod and schema dateModified fall on the same day</div>
               
               
@@ -6881,7 +6874,7 @@
                 <span class="rule-id">content-text-html-ratio</span>
               </div>
               
-              <div class="rule-message">Very low text-to-HTML ratio: 2.2% (4206 text bytes / 189375 HTML bytes)</div>
+              <div class="rule-message">Very low text-to-HTML ratio: 2.2% (4206 text bytes / 189398 HTML bytes)</div>
               
               
               <details class="rule-fix">
@@ -8673,7 +8666,7 @@
                 <span class="rule-id">js-failed-requests</span>
               </div>
               
-              <div class="rule-message">3 script/stylesheet request(s) failed while rendering: fetch net::ERR_ABORTED: https://www.google.com/ccm/collect?rcb=1&amp;frm=0&amp;apvc=1&amp;auid=523950218.1793776480&amp;dt=NVIDIA%20DGX%20Platform%20-%20AMAX%20Engineering&amp;tid=AW-1060004328&amp;en=page_view&amp;dl=https%3A%2F%2Fwww.amax.com%2Fnvidia-dgx-platform-solutions%2F&amp;scrsrc=www.googletagmanager.com&amp;rnd=425303714.1793776480&amp;navt=n&amp;npa=0&amp;ep.googlesitekit_post_type=post&amp;did=dZTNiMT&amp;gdid=dZTNiMT&amp;gtm=45Pe6b21v9174414162za208zd9174414162xecxf1&amp;gcs=G1--&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121191155~121246026~121246034~121399758~123691370~123814946&amp;tft=1793776480108&amp;tfd=825&amp;tids=AW-1060004328&amp;fmt=8</div>
+              <div class="rule-message">3 script/stylesheet request(s) failed while rendering: fetch net::ERR_ABORTED: https://www.google.com/ccm/collect?rcb=9&amp;frm=0&amp;apvc=1&amp;auid=911737524.1794962277&amp;dt=NVIDIA%20DGX%20Platform%20-%20AMAX%20Engineering&amp;tid=AW-1060004328&amp;en=page_view&amp;dl=https%3A%2F%2Fwww.amax.com%2Fnvidia-dgx-platform-solutions%2F&amp;scrsrc=www.googletagmanager.com&amp;rnd=1427868326.1794962277&amp;navt=n&amp;npa=0&amp;ep.googlesitekit_post_type=post&amp;did=dZTNiMT&amp;gdid=dZTNiMT&amp;gtm=45Pe6bg2v9174414162za208zd9174414162xecxf1&amp;gcs=G1--&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~119860443~120213116~120385423~120412528~120420414~120469145~120469153~121191155~121246026~121246034~124320990&amp;tft=1794962277138&amp;tfd=918&amp;tids=AW-1060004328&amp;fmt=8</div>
               
               
               <details class="rule-fix">
@@ -9268,7 +9261,7 @@
                 <span class="rule-id">htmlval-size-limit</span>
               </div>
               
-              <div class="rule-message">HTML document size is 184.9 KB</div>
+              <div class="rule-message">HTML document size is 185.0 KB</div>
               <div class="rule-description">Checks that the HTML document size is within reasonable limits</div>
               
               
